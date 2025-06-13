@@ -12,3 +12,4 @@ C:\wamp64\www\Projetos\C#\CS_GAME\CS_Game\CS_Game\obj\Debug\net9.0\refint\CS_Gam
 C:\wamp64\www\Projetos\C#\CS_GAME\CS_Game\CS_Game\obj\Debug\net9.0\CS_Game.pdb
 C:\wamp64\www\Projetos\C#\CS_GAME\CS_Game\CS_Game\obj\Debug\net9.0\CS_Game.genruntimeconfig.cache
 C:\wamp64\www\Projetos\C#\CS_GAME\CS_Game\CS_Game\obj\Debug\net9.0\ref\CS_Game.dll
+C:\wamp64\www\Projetos\C#\CS_GAME\CS_Game\CS_Game\obj\Debug\net9.0\CS_Game.sourcelink.json
