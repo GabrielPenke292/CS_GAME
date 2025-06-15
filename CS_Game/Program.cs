@@ -32,10 +32,7 @@ public class CS_Game
                 Console.Write("Idade do jogador: ");
                 int playerAge = Int32.Parse(Console.ReadLine());
                 
-                Console.Write("Posição do jogador: ");
-                string playerPosition = Console.ReadLine();
-                
-                Player player = new Player(playerName, playerAge, playerPosition);
+                Player player = new Player(playerName, playerAge);
                 teams[i].AddPlayer(player);
             }
             
@@ -52,7 +49,7 @@ public class CS_Game
             
             foreach (Player player in teams[i].GetPlayers())
             {
-                Console.WriteLine($"- {player.Name} ({player.Position}), {player.Age} anos");
+                Console.WriteLine($"- {player.Name}, {player.Age} anos");
             }
             
             Console.WriteLine("-----------------------------");
