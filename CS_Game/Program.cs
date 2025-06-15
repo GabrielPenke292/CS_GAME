@@ -75,7 +75,38 @@ public class CS_Game
             Console.WriteLine("0 - Sair");
             Console.Write("Escolha uma opção: ");
             option = Int32.Parse(Console.ReadLine());
-            
+            verifyUserOption(option);
         }
+    }
+
+    public void verifyUserOption(int option) {
+        switch (option) {
+            case 1:
+                createTeam();
+                break;
+            case 2:
+                showTeams();
+                break;
+            case 3:
+                addPlayer();
+                break;
+            case 0:
+                break;
+            default:
+                Console.WriteLine("Opção inválida");
+                break;
+        }
+    }
+
+    public void createTeam() {
+        Console.WriteLine("Criando um time");
+    }
+
+    public void showTeams() {
+        Console.WriteLine("Mostrando times");
+    }
+
+    public void addPlayer() {
+        Console.WriteLine("Adicionando um jogador");
     }
 }
