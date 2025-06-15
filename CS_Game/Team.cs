@@ -8,8 +8,10 @@ public class Team
 	public string Country { get; set; }
 	private List<Player> players;
 
-	public Team()
+	public Team(string name, string country)
 	{
+		Name = name;
+		Country = country;
 		players = new List<Player>();
 	}
 
