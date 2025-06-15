@@ -4,6 +4,10 @@ public class CS_Game
 {
     public static void Main(string[] args)
     {
+        CS_Game game = new CS_Game();
+        game.showMenu();
+
+        // Inicializando o jogo
         Console.WriteLine("Bem vindo(a) ao CS Game!");
         Console.WriteLine("############################");
 
@@ -54,6 +58,24 @@ public class CS_Game
             
             Console.WriteLine("-----------------------------");
             Console.WriteLine();
+        }
+
+
+    }
+
+    public void showMenu() {
+        int option = -1;
+        while (option != 0) {
+            // criando o menu
+            Console.WriteLine("Bem vindo(a) ao CS Game!");
+            Console.WriteLine("############################");
+            Console.WriteLine("1 - Criar um time");
+            Console.WriteLine("2 - Ver times");
+            Console.WriteLine("3 - Adicionar jogador");
+            Console.WriteLine("0 - Sair");
+            Console.Write("Escolha uma opção: ");
+            option = Int32.Parse(Console.ReadLine());
+            
         }
     }
 }
